@@ -1,0 +1,110 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+/* width: 1000px; */
+width: 63rem;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* position: fixed; */
+    /* background-color: rgb(151, 127, 119); */
+}
+.navbar div ul li{
+    list-style: none;
+    padding: .5rem 0rem;
+    /* padding: 1rem 0rem; */
+}
+.navbar div ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0rem .4rem;
+    text-align: center;
+    font-size: 14px;
+    /* border: 2px solid black; */
+}
+
+/* about us */
+
+.aboutUs{
+    width: 63rem;
+}
+.aboutUs .box{
+    flex-direction: column;
+}
+.aboutUs h2{
+    margin: 0rem;
+}
+.aboutUs .box li div{
+    width: 250px;
+    height: fit-content;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgb(226, 231, 216);
+}
+
+/* new offers */
+.newOffers{
+    /* width: 1000px; */width: 63rem;
+}
+.newOffers #new{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 98, 98);
+    padding: 79px;
+}
+.newOffers #new .img{
+position: relative;
+/* top: 48px;
+right: 70px; */
+width: 900px;
+
+height: fit-content;
+}
+.newOffers #new .img img{
+    width: 402px;
+    height: 208px;
+}
+#food3{
+    position: relative;
+    top: 71px;
+    left: 19px;
+    z-index: 0;
+}
+
+/* 
+portfolio */
+
+
+.portfolio{
+    /* width: 1000px; */width: 63rem;
+} 
+
+
+/* /* blog */
+
+.blog{
+    /* width: 1000px; */width: 63rem;
+}
+
+
+/* statics */
+
+.statics{
+    /* width: 1000px; */
+    width: 63rem;
+}
+
+
+.contactUs{
+    /* width: 1000px; */ width: 63rem;
+}

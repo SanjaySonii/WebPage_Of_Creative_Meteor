@@ -1,0 +1,309 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background: url(mountain_3.jpg) no-repeat center center/cover;
+    height: 650px;
+    width: 100%
+    /* opacity: .9; */
+}
+
+      /* navbar */
+
+.navbar{
+    display: flex;
+    /* position: fixed; */
+    /* background-color: rgb(151, 127, 119); */
+}
+.navbar div img{
+    width: 100px;
+    height: 30px;
+    padding: 0.5rem 2rem;
+}
+.navbar div ul{
+    display: flex;
+}
+.navbar div ul li{
+    list-style: none;
+    padding: 1rem 3rem;
+    /* padding: 1rem 0rem; */
+}
+.navbar div ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+    /* border: 2px solid black; */
+}
+.navbar div ul li a:hover{
+    color: rgb(218, 233, 80);
+    cursor: pointer;
+    background-color: rgb(45, 10, 102);
+    border-radius: 10px;
+}
+
+         /* container */
+
+
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    /* padding: 2rem 0rem; */
+    /* margin: 2rem; */
+}
+.container p{
+    color: rgb(223, 210, 210);
+}
+
+
+     /* about us  */
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.aboutUs hr{
+    height: .5rem;
+    width: 20rem;
+    background-color: black;
+}
+.aboutUs .box{
+    display: flex;
+}
+.aboutUs .box li{
+    list-style: none;
+}
+.aboutUs .box li div{
+    width: 400px;
+    height: 200px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgb(226, 231, 216);
+}
+
+
+/* new offers */
+.newOffers{
+    background-color: rgb(112, 98, 98);
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid red; */
+}
+.newOffers #new{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 98, 98);
+    padding: 79px;
+}
+.newOffers #new div{
+    display: flex;
+    flex-direction: row;
+}
+.newOffers #new .img{
+    position: relative;
+    top: 100px;
+    width: 900px;
+    height: fit-content;
+}
+.newOffers #new .img img{
+    width: 502px;
+    height: 308px;
+}
+#food{   
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    right: 429px;
+}
+#food2{
+    position: relative;
+    top: 82px;
+    left: 109px;
+    z-index: 1;
+}
+#food3{    
+       position: relative;
+    top: 242px;
+    left: 111px;
+    z-index: 0;
+}
+
+/* portfolio */
+
+.portfolio{
+    background-color: rgb(146, 153, 132);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.portfolio .box {
+    display: flex;
+}
+.portfolio .box li{
+    list-style: none;
+}
+.portfolio .box li div img{ 
+    width: 300px;
+    height: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    /* background-color: rgb(226, 231, 216); */
+
+}
+
+/* blog */
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+}
+.blog .blog_img{
+    width: 750px;
+    height: 300px;
+    margin: 0.5rem;
+    padding: 0rem;
+}
+.blog #Big{
+    width: 750px;
+    height: 500px;
+    margin: 0.5rem;
+    padding: 0rem;
+}
+.blog .blog_discription{
+    background-color: lightslategray;
+    align-items: baseline; 
+    width: 735px; 
+    position: relative;
+    bottom: 56px;
+    right: 8px;
+    text-align: left;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.blog .blog_discription h2{
+    color: white;
+}
+.blog .blog_discription h3{
+    color: white;
+}
+
+/* statics */
+
+.statics{
+    background-color: thistle;
+}
+.statics .box li div{
+width: 200px;
+height: 150px;
+background-color: rgb(139, 139, 52);
+}
+.statics .box li div h2{
+    color: rgb(91, 91, 117);
+}
+.statics .box li div h3{
+    padding-top: 2rem;
+    color: rgb(90, 71, 71);
+}
+
+
+/* footer */
+
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+    color: white;
+    background-color: rgb(238, 121, 121);
+}
+.contactUs div hr{
+background-color: white;
+}
+.contactUs .form{
+    width: 46%;
+    /* border: 2px solid red; */
+}
+.contactUs div img{
+    width: 700px;
+    margin-top: 1rem;
+    height: 450px;
+}
+.contactUs div form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        width: 100%;
+        /* border: 2px solid red; */
+}
+.contactUs div form input{
+margin: 1rem 0rem;
+padding: 0.5rem 0rem;
+width: 100%;
+}
+.contactUs div form textarea{
+    margin: 1rem 0rem;
+    width: 100%;
+}
+.contactUs div form button{
+    width: 30%;
+}
+
+
+
+          /* utility classes */
+ .font-first{
+color: blanchedalmond;
+padding:  1rem 0rem;
+font-family: cursive;
+ }
+ .font-second{
+    color: blanchedalmond;
+ }
+ .font-third{
+     padding: 1rem 0rem;
+     color: white;
+ }
+ .btn{
+     padding: .5rem 2rem;
+     margin: 0rem 0rem;
+     border-radius: 2rem;
+     background-color: yellowgreen;
+ }
+ .btn1{
+     padding: .5rem 2rem;
+    margin: 0rem 0rem;
+    border-radius: 2rem;
+    background-color: rgb(213, 221, 197);
+ }
+ .h2{
+    color: black;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
